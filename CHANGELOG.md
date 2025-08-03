@@ -1,15 +1,20 @@
-## 4.12.16
+## 4.12.17
 04 August 2025
 
+- Updated README and refined AI debug logs
+- docs: clarified conflicts in README.maiass.md
+- refactor(ai): replaced all debug_mode print_info with print_debug
+- refactor(ai): added AI temperature to debug output
+- refactor(ai): modified ai_temperature as an argument in json_payload
 - Updated remote repository references
 - refactor: changed `maiass` to `bashmaiass` in script comments
 - fix: updated default repository for gh release to `bashmaiass`
 - fix: set `bashmaiass` as target repo for gh release creation
 - Update MAIASS banner and readme
-  - feat: added new MAIASS banner image
-  - docs: updated README to link to the new banner image
-- Conflicts:
-- docs/README.maiass.md
+-  - feat: added new MAIASS banner image
+-  - docs: updated README to link to the new banner image
+- # Conflicts:
+- #	docs/README.maiass.md
 - Updated README and Banner URL
 - docs: updated README version display
 - fix: corrected banner URL in README
@@ -73,6 +78,10 @@
 - Checkout develop branch if not already on it and merge current branch
 - Pull latest changes from develop branch
 - Bump version and handle release branch creation if version files exist and on develop branch
+- feat: added new MAIASS banner image
+- docs: updated README to link to the new banner image
+- Conflicts:
+- docs/README.maiass.md
 
 ## 4.12.15
 4 August 2025
