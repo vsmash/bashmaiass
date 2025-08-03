@@ -1,6 +1,10 @@
-## 4.13.0
+## 4.13.1
 04 August 2025
 
+- * release/4.13.0:
+-  Bumped version to 4.13.0
+- Revert README to MAIASS
+- Temporary: swap README for committhis push
 - Replaced print_info with print_debug for debugging messages
 - feat: Replaced `print_info` debug messages with `print_debug` in `ai.sh`
 - feat: Replaced `print_info` debug messages with `print_debug` in `utils.sh`
@@ -17,8 +21,8 @@
 - fix: updated default repository for gh release to `bashmaiass`
 - fix: set `bashmaiass` as target repo for gh release creation
 - Update MAIASS banner and readme
--  - feat: added new MAIASS banner image
--  - docs: updated README to link to the new banner image
+- - feat: added new MAIASS banner image
+- - docs: updated README to link to the new banner image
 - # Conflicts:
 - #	docs/README.maiass.md
 - Updated README and Banner URL
@@ -101,8 +105,8 @@
 - fix: updated default repository for gh release to `bashmaiass`
 - fix: set `bashmaiass` as target repo for gh release creation
 - Update MAIASS banner and readme
-- - feat: added new MAIASS banner image
-- - docs: updated README to link to the new banner image
+- feat: added new MAIASS banner image
+- docs: updated README to link to the new banner image
 - # Conflicts:
 - #	docs/README.maiass.md
 - Updated README and Banner URL
@@ -168,8 +172,6 @@
 - Checkout develop branch if not already on it and merge current branch
 - Pull latest changes from develop branch
 - Bump version and handle release branch creation if version files exist and on develop branch
-- feat: added new MAIASS banner image
-- docs: updated README to link to the new banner image
 - Conflicts:
 - docs/README.maiass.md
 

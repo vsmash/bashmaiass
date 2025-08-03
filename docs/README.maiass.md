@@ -1,7 +1,7 @@
 ![MAIASS Banner](https://raw.githubusercontent.com/vsmash/bashmaiass/main/assets/maiassbanner2.png)
 
 <div align="center">
-# |)) MAIASS v4.12.13
+# 4.13.1
 Modular AI-Augmented Semantic Scribe
 
 ---
@@ -62,20 +62,20 @@ This will install both `maiass.sh` (symlinked as `maiass`, `myass`, and `miass`)
 ### Basic Usage
 
 ```bash
-# Patch version bump (1.2.3 → 1.2.4)
+# 4.13.1
 maiass
 
-# Minor version bump (1.2.3 → 1.3.0)
+# 4.13.1
 maiass minor
 
-# Major version bump (1.2.3 → 2.0.0)
+# 4.13.1
 maiass major
 
-# Set specific version
+# 4.13.1
 maiass 2.1.0
 
-# Use AI-powered commit message tool only
-# (requires OpenAI API key and committhis.sh installed)
+# 4.13.1
+# 4.13.1
 committhis
 * committhis is already integrated into maiass. this is only 
 for people who want to use the commit functionality on its 
@@ -86,11 +86,11 @@ own without the git flow, version managment and changelog generation
 ### AI-Powered Commit Messages
 
 ```bash
-# Set up OpenAI integration
+# 4.13.1
 export MAIASS_AI_TOKEN="your_api_key"
 export MAIASS_AI_MODE="ask"
 
-# MAIASS will now suggest intelligent commit messages
+# 4.13.1
 maiass patch
 ```
 
